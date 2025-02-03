@@ -1,19 +1,22 @@
 // script.js
 document.addEventListener('DOMContentLoaded', () => {
     const experienceData = [
-        { date: "2022 - Present", title: "Software Engineer", company: "Company A", description: "Developed and maintained web applications using React, Node.js, and AWS." },
-        // ... more experience entries
+        { date: "2013-2016", title: "Technical Consultant", company: "Applexus Technologies Pvt", description: "Worked as Technical consultant in multiple end to end implementation working in technologies such as ABAP,SAP UI5 and sap screen personas" },
+        { date: "2016-Present", title: "Senior Software Developer", company: "Applexus Technologies Inc", description:" As a senior consultant"}
+        
     ];
 
     const projectsData = [
-        { title: "Project 1", description: "A brief description of your project.  Mention technologies used.", link: "project1-link" },
-        // ... more project entries
+        { title: "Assistant AI with SAP", description: "Working on embedding Assistant AI within Fiori application using LLM Models to summarize results based on ODATA REST API Data set and automating task like charts to represent data in more visual form.Also to decode Payment files from different payment processor using AI LLM Models.Working with local LLM with Ollama", link: "https://salesanalyzerbysiva.streamlit.app/" },
+        { title: "SeaWorld", description: "Working as a Onsite Development Technical Lead on S4 HANA migration project."}
     ];
 
     const certificationsData = [
-        "AWS Certified Solutions Architect",
-        "Certified Scrum Master",
-        // ... more certifications
+        
+        "SAP Certified Development Associate - Fiori Application Developer",
+        "SAP Certified Development Specialist - ABAP for HANA 2.0",
+        "Programming Using JavaScript",
+        "Programming with React"
     ];
 
     populateTimeline(experienceData);
